@@ -128,7 +128,7 @@ p{
     background-color: rgb(14, 13, 13);
     margin-top: 150px;
     width:100%;
-    height:350px;
+    height:370px;
 }
 .center{
     justify-content: center;
@@ -142,4 +142,29 @@ hr{
 }
 .goal{
     font-size: 40px;
+}
+/*-------------------
+  footer-social-link
+-------------------*/
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+}
+.fa-facebook{
+    color:rgb(247, 244, 244);
+    font-size:40px;
+    padding:12px ;
+
+}
+.fa-youtube{
+    color:rgb(247, 244, 244);
+    font-size:40px;
+    padding:12px ;
+}
+
+.fa-instagram-square{
+    color:rgb(247, 244, 244);
+    font-size:40px;
+    padding:12px ;
 }
