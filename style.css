@@ -1,4 +1,12 @@
 
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.body-font{
+    font-family: 'Oswald', sans-serif;
+    color:azure;
+}
+
 /*-------------
    top-banner
 ----------------*/
@@ -16,8 +24,8 @@ main{
     border: 2px solid indianred;
     border-radius: 40px;
     background-color: rgb(19, 18, 18);
-    width:900px;
-    height:400px;
+    width:850px;
+    height:550px;
     align-items: end;
     justify-items: center;
     
@@ -29,6 +37,7 @@ h1{
 }
 p{
     color:#d1d1d1;
+    font-size: 15px;
 }
 .link-button{
     text-decoration: none;
@@ -42,6 +51,95 @@ p{
 }
 .fa-greater-than{
     color:chartreuse;
+    font-size: 30px;
 }
 
 
+/*---------------
+   blogs-style
+----------------*/
+.container{
+    margin-top: 150px;
+}
+.courses{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    margin-left:150px ;
+    margin-right: 120px;
+}
+.course-banner img{
+    width:350;
+    height:150px;
+    
+}
+.course{
+  box-shadow: 10px 15px 12px rgb(218, 206, 206);
+  margin-top: 30px;
+  width:267px;
+  height: 340px;
+}
+.link-button-2{
+    font-size: 20px;
+    margin-top: 10px;
+    color:rgb(17, 16, 16);
+    background-color: rgb(244, 250, 250);
+    border-radius: 5px;
+    
+}
+p{
+    color:black;
+    font-size: 20px;
+    font-weight: 600px;
+}
+.icon-font{
+    font-size:20px;
+    font-weight: 400px;
+}
+.fa-clock{
+    font-size:20px;
+}
+.fa-message{
+    font-size: 20px;
+   margin-top: 5px;
+}
+/*---------------
+  footer-start
+--------------*/
+ li{
+    list-style: none;
+    margin-right:30px;
+    padding: 10px;
+   
+
+}
+ li a{
+    text-decoration: none;
+    color:rgb(236, 248, 236);
+    font-size: 20px;
+    margin-bottom: 200px;
+
+}
+ ul{
+    display: flex;
+    justify-content: center;
+}
+.footer-blog{
+    background-color: rgb(14, 13, 13);
+    margin-top: 150px;
+    width:100%;
+    height:350px;
+}
+.center{
+    justify-content: center;
+}
+hr{
+    border:1px solid #d1d1d1;
+    
+}
+.goal-center{
+    font-size: 80px;
+}
+.goal{
+    font-size: 40px;
+}
