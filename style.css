@@ -1,0 +1,47 @@
+
+/*-------------
+   top-banner
+----------------*/
+
+
+main{
+    display:flex;
+    justify-content: center;
+}
+.top-banner{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 50px;
+    padding:80px;
+    border: 2px solid indianred;
+    border-radius: 40px;
+    background-color: rgb(19, 18, 18);
+    width:900px;
+    height:400px;
+    align-items: end;
+    justify-items: center;
+    
+}
+h1{
+    font-size: 30px;
+    color: #d1d1d1;
+   
+}
+p{
+    color:#d1d1d1;
+}
+.link-button{
+    text-decoration: none;
+    font-size: 30px;
+    background-color: red;
+    color:aliceblue;
+    width:300;
+    height: 150px;
+    border:1px solid red;
+    border-radius: 5px;
+}
+.fa-greater-than{
+    color:chartreuse;
+}
+
+
