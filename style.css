@@ -316,3 +316,85 @@ li a{
     justify-content: center;
 }
 }
+
+
+/*-----------------
+    Tablet-Device
+-------------------*/
+
+@media only screen and (min-width:688px) and (max-width:992px){
+    .top-banner{
+        width:450px;
+        height:865px;
+        grid-template-columns: repeat(1,1fr);
+}
+
+.log-in-blog{
+    display:flex;
+    flex-direction: row;
+    justify-content: stretch;
+    flex-wrap:none;
+    width: 100%;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+
+
+.log-in-blog{
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-start;
+    justify-content: space-between;
+    width: 14%;
+    height: 100px;
+    margin-left: 100px;
+    border-radius: 10px;
+
+
+}
+
+
+.courses{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+    justify-content: center;
+    margin-left:150px ;
+    margin-right: 120px;
+    padding: 20px;
+    grid-gap: 1.4em;
+}
+
+.footer-blog{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width:780px;
+    height: 1280px;
+    background-color: black; 
+     
+    
+}
+
+.center{
+    justify-content: center;
+
+}
+li a{
+    color:rgb(236, 248, 236);
+    font-size:12px;
+    margin-bottom: 100px;
+    margin-left: -2px;
+    
+
+}
+li{
+    list-style: none;
+    margin-right:90px;
+    padding: 5px;
+}
+
+
+}
+
